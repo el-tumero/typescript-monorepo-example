@@ -13,7 +13,9 @@
     "typescript": "^5.1.6"
   },
   "scripts": {
-    "test": "NODE_NO_WARNINGS=1 mocha"
+    "test": "NODE_NO_WARNINGS=1 mocha",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
   },
   "workspaces": [
     "packages/*"

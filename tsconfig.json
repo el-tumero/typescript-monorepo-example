@@ -12,8 +12,12 @@
       "@product/core/*": ["core/src/*"],
       "@product/utils/*": ["utils/src/*"],
 
-    }
+    },
+    "rootDir": "src",
+    "outDir": "dist",
   },
+  "include": ["./src/*"],
+  "exclude": ["./node_modules/*"],
   "files": [],
   "references": [
     {
