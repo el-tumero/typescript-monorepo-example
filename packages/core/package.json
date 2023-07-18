@@ -1,9 +1,12 @@
 {
   "name": "@product/core",
   "version": "0.0.0",
-  "type": "module",
+  "type":"module",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node-esm src/index.ts"
+  },
   "dependencies": {
     "@product/utils": "^0.0.0"
   }

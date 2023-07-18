@@ -1,9 +1,11 @@
 {
   "name": "product",
   "version": "1.0.0",
-  "main": "index.js",
   "private": true,
   "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
   "workspaces": [
     "packages/*"
   ]
